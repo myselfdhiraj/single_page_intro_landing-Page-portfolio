@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    background-color: #494949;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+.main .left{
+    background-color: #0c0b0b;
+    width: 300px;
+    border: 3px solid gray;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main .left .profile{
+    text-align: center;
+    width: 100%;
+}
+.main .left .profile .user-img, .main .left .profile .user-img img{
+    width: 200px;
+    height: 200px;
+}
+.main .left .profile .user-img{
+    margin: 30px auto;
+}
+
+.main .left .profile .user-name{
+    font-size: 30px;
+}
+.main .left .profile .tagline{
+    font-size: 14px;
+    color: gray;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100% ;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+.social-icon .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    transition: all ease 0.5s;
+    text-align: center;
+    padding: 6px;
+}
+.social-icon .icon:hover{
+    background-color: rgb(5, 182, 72);
+    border: 2px solid rgb(5, 182, 72);
+}
+.social-icon .icon:hover a i{
+    color: #fff;
+}
+.social-icon .icon i{
+    font-size: 1rem;
+    color: gray;
+    transition: all ease 0.4s;
+}
+.main .left .profile .btn{
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    background-color: rgb(5, 182, 72);
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.main .left .profile .cv-btn{
+    background-color: transparent;
+    border: 2px solid gray;
+    transition: all ease-in-out 0.5s;
+}
+.main .left .profile .cv-btn:hover{
+    background-color: rgb(5, 182, 72);
+    border: 2px solid gray;
+}
+.main .left .profile .action-btn{
+    background-color: rgb(5, 182, 72);
+    border: 2px solid gray;
+    transition: all ease-in-out 0.5s;
+}
+.main .left .profile .action-btn:hover{
+    background-color: rgb(6, 139, 57);
+    border: 2px solid gray;
+}
+
+/* right side  */
+.main .right {
+    background-color: #0c0b0b;
+    border-top: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    width: 100%;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .right .hero{
+    width: 100%;
+}
+.main .right .hero .intro{
+    font-size: 1rem;
+    border: 2px solid gray;
+    padding: 5px 15px ;
+    transition: all ease-in-out 0.5s;
+    border-radius: 30px;
+}
+.main .right .hero .intro:hover{
+    border: 2px solid rgb(5, 182, 72);
+    background-color: rgb(5, 182, 72);
+}
+.main .right .hero .heading{
+    margin: 30px 0;
+    font-size: 75px;
+    line-height: 1.2;
+}
+.main .right .hero .heading span{
+    color: rgb(5, 182, 72);
+}
+.main .right .hero .text{
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    margin: 30px 0;
+}
+.main .right .hero .box{
+    width: 80%;
+    margin: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main .right .hero .box .box-item1{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main .right .hero .box .box-item1 .left{
+    padding: 0;
+    width: 120px;
+    font-size: 70px;
+    border: 0;
+    color: rgb(5, 182, 72);
+}
+.main .right .hero .box .box-item1 .right{
+    padding: 0;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.main .right .hero .box .box-item2{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main .right .hero .box .box-item2 .left{
+    padding: 0;
+    width: 120px;
+    font-size: 70px;
+    border: 0;
+    color: rgb(5, 182, 72);
+}
+.main .right .hero .box .box-item2 .right{
+    padding: 0;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+}
